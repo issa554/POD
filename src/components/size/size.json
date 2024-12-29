@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_size_sizes",
+  "info": {
+    "displayName": "Size",
+    "icon": "scissors"
+  },
+  "options": {},
+  "attributes": {
+    "Color": {
+      "displayName": "Color",
+      "type": "component",
+      "repeatable": true,
+      "component": "color.color"
+    },
+    "Name": {
+      "type": "string"
+    }
+  }
+}

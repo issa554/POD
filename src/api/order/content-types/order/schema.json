@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "orders",
+  "info": {
+    "singularName": "order",
+    "pluralName": "orders",
+    "displayName": "order"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Stat": {
+      "type": "enumeration",
+      "enum": [
+        "Canceled",
+        "P"
+      ]
+    },
+    "orderitem": {
+      "displayName": "orderitem",
+      "type": "component",
+      "repeatable": true,
+      "component": "orderitem.orderitem"
+    },
+    "user": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "plugin::users-permissions.user"
+    }
+  }
+}

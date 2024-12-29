@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_color_colors",
+  "info": {
+    "displayName": "Color"
+  },
+  "options": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Stock": {
+      "type": "decimal"
+    }
+  }
+}
